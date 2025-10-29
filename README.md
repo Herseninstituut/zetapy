@@ -3,7 +3,7 @@ Repository containing ZETA functions and dependencies. For an example of how to 
 
 Now available as pip package! Simply "pip install zetapy".
 
-The original code is written and maintained in MATLAB by Jorrit Montijn (https://github.com/JorritMontijn/zetatest). This Python repository and the pip package are maintained by Jorrit Montijn and Guido Meijer.
+The original code is written in MATLAB by Jorrit Montijn (https://github.com/Herseninstituut/zetatest). The most up to date python version is located at (http://github.com/Herseninstituut/zetapy). The Python repository and the pip package are maintained by Guido Meijer and Alexander Heimel. 
 
 Our pre-print describing data-stitching, the time-series ZETA-test, and the two-sample tests is now online: https://www.biorxiv.org/content/10.1101/2023.10.30.564780v1
 
