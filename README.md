@@ -5,7 +5,7 @@ Now available as pip package! Simply "pip install zetapy".
 
 The original code is written in MATLAB by Jorrit Montijn (https://github.com/Herseninstituut/zetatest). The most up to date python version is located at (http://github.com/Herseninstituut/zetapy). The Python repository and the pip package are maintained by Guido Meijer and Alexander Heimel. 
 
-Our pre-print describing data-stitching, the time-series ZETA-test, and the two-sample tests is now online: https://www.biorxiv.org/content/10.1101/2023.10.30.564780v1
+Our pre-print describing data-stitching, the time-series ZETA-test, and the two-sample tests is available online: https://www.biorxiv.org/content/10.1101/2023.10.30.564780v1
 
 The article describing the original ZETA-test has been published in eLife: https://elifesciences.org/articles/71969
 
@@ -19,12 +19,12 @@ This repository contains five main functions:
  - zetatstest2: Same as (2), but for testing differences between two time-series data arrays.
  - ifr: Calculates the instantaneous firing rate (IFR) without running the ZETA-test. Use this as you would a PSTH function.
 
-Rationale for ZETA
+## Rationale for ZETA
 
 Neurophysiological studies depend on a reliable quantification of whether and when a neuron responds to stimulation, be it sensory, optogenetically or otherwise. However, current statistical analysis methods to determine a neuron’s responsiveness require arbitrary parameter choices, such as a binning size. This choice can change the results of the analysis, which invites bad statistical practice and reduces the replicability of analyses. Moreover, many methods, such as bin-wise t-tests, only detect classically mean-rate modulated cells. Especially with advent of techniques that yield increasingly large numbers of cells, such as Neuropixels recordings or two-photon calcium imaging, it is important to use tests for cell-inclusion that require no manual curation. Here, we present a new family of statistical tests for responses in point-event and time-series data for one- and two-sample comparisons: the family of ZETA-tests. As shown in our papers, they outperform approaches such as optimally-binned ANOVAs, t-tests and model-based approaches, in the sense that it includes more cells in real neurophysiological data at a similar false-positive rate.
 
-Finally, ZETA’s timescale-, parameter- and binning-free nature allowed us to implement a ZETA-derived algorithm to calculate peak onset and offset latencies in neuronal spike trains with theoretically unlimited temporal resolution.
+## Latency
 
-Please send any questions or comments to Jorrit Montijn, Guido Meijer or Alexander Heimel.
+For computing the latency of a response, we recommend to use the LatenZy test (https://github.com/Herseninstituut/latenZy), based on the zeta-test. 
 
 ![zeta_image](https://user-images.githubusercontent.com/15422591/135059690-2d7f216a-726e-4080-a4ec-2b3fae78e10c.png)
