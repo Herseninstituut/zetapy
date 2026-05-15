@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zetapy"
-version = "3.2.3"
+version = "4.0"
 description = "Implementations of the ZETA family of statistical tests."
 readme = "README.md"
 authors = [
-    { name="Jorrit Montijn", email="j.s.montijn@gmail.com" },
+    { name="Jorrit Montijn" },
     { name="Guido Meijer" },
     { name="Alexander Heimel" }
 ]
