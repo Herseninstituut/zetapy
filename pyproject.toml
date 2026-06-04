@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zetapy"
-version = "4.0"
+version = "4.1"
 description = "Implementations of the ZETA family of statistical tests."
 readme = "README.md"
 authors = [
